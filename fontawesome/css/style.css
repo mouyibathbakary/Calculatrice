@@ -1,0 +1,46 @@
+.container
+{
+    width: 400px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows:repeat(6,75px) ;
+}
+
+.orange
+{
+    background-color: orange;
+}
+
+.touche
+{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.screen
+{
+    background-color: black;
+    grid-column: span 4;
+    text-align: right;
+   
+}
+
+.screen-div
+{
+    color: white;
+    display: inline-block;
+    margin: 25px auto !important;
+
+}
+.clear
+{
+    grid-column: span 2;
+}
+
+.zero
+{
+    grid-column: span 3;
+}
